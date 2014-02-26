@@ -1,4 +1,4 @@
-projeto-epa
+README: Projeto EPA
 ===========
 
 O projeto EPA é uma estufa portátil automática com pequena dimensões.
