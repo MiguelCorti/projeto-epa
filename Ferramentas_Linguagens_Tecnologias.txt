@@ -1,0 +1,14 @@
+Ferramentas:
+
+	- Arduino
+	- Sensor de temperatura
+	- Sensor de umidade
+	- Sensor de luz
+
+Linguagens:
+	
+	- Java
+	- APIs de interface gráfica do Java (AWT e Swing)
+
+Tecnologias:
+
