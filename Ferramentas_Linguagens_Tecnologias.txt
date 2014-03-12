@@ -4,6 +4,7 @@ Ferramentas:
 	- Sensor de temperatura
 	- Sensor de umidade
 	- Sensor de luz
+	- Wifi shield
 
 Linguagens:
 
@@ -14,9 +15,14 @@ Tecnologias:
 
 	- Microcontroladores
 	- Sensores
+	- Wireless
 
 O que teremos que aprender:
 
 	- Usar a livraria RXTX que permite que possa programar o arduino em java.
 	O site do arduino oferece um tutorial que ensina como configurar a livraria,
 	além dele outros sites na internet também oferecem esse tutorial.
+
+	- Lidar com os sensores do arduino (temperatura, luz, umidade) e o wifi shield. Para aprender
+	existe o arduino playground que contém informações sobre tudo relacionado a Arduino,
+	além de um site chamado "ajudino" que possui diversos tutoriais.
