@@ -9,7 +9,7 @@ Ferramentas:
 Linguagens:
 
 	- Java
-	- APIs de interface gr�fica do Java (AWT e Swing)
+	- APIs de interface grï¿½fica do Java (AWT e Swing)
 
 Tecnologias:
 
