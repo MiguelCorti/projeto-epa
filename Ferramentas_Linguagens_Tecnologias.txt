@@ -6,9 +6,17 @@ Ferramentas:
 	- Sensor de luz
 
 Linguagens:
-	
+
 	- Java
 	- APIs de interface gráfica do Java (AWT e Swing)
 
 Tecnologias:
 
+	- Microcontroladores
+	- Sensores
+
+O que teremos que aprender:
+
+	- Usar a livraria RXTX que permite que possa programar o arduino em java.
+	O site do arduino oferece um tutorial que ensina como configurar a livraria,
+	além dele outros sites na internet também oferecem esse tutorial.
