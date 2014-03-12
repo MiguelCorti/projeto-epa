@@ -9,7 +9,7 @@ Ferramentas:
 Linguagens:
 
 	- Java
-	- APIs de interface gráfica do Java (AWT e Swing)
+	- APIs de interface grï¿½fica do Java (AWT e Swing)
 
 Tecnologias:
 
@@ -19,17 +19,17 @@ Tecnologias:
 
 O que teremos que aprender:
 
-	- Usar a livraria RXTX que possibilita a comunicação entre o código Java e o Arduino.
+	- Usar a livraria RXTX que possibilita a comunicaï¿½ï¿½o entre o cï¿½digo Java e o Arduino.
 	O site do arduino oferece um tutorial que ensina como configurar a livraria,
-	além dele outros sites na internet também oferecem esse tutorial. [4]
+	alï¿½m dele outros sites na internet tambï¿½m oferecem esse tutorial. [4]
 
 
 	- Lidar com os sensores do arduino (temperatura, luz, umidade) e o wifi shield. Para aprender
-	existe o arduino playground que contém informações sobre tudo relacionado a Arduino,
-	além de um site chamado "ajudino" que possui diversos tutoriais.
+	existe o arduino playground que contï¿½m informaï¿½ï¿½es sobre tudo relacionado a Arduino,
+	alï¿½m de um site chamado "ajudino" que possui diversos tutoriais.
 
 
 [1] (http://www.ajudino.com/2013/06/11-lendo-temperatura-com-lm35.html)
 [2] (http://tushev.org/articles/arduino/item/47-interfacing-hh10d-with-arduino)
 [3] (http://www.ajudino.com/2013/05/6-utilizando-sensor-de-luminosidade-ldr.html)
-[4] (http://playground.arduino.cc/Interfacing/Java#.UyBo_fldW6M)
+[4] (http://playground.arduino.cc/Interfacing/Java#.UyBo_fldW6M) - (http://www.drdobbs.com/jvm/control-an-arduino-from-java/240163864)
