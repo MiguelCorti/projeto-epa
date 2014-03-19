@@ -6,6 +6,7 @@ import gnu.io.SerialPortEvent;
 import gnu.io.SerialPortEventListener;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.Enumeration;
@@ -14,7 +15,7 @@ public class SerialTest implements SerialPortEventListener
 {
 	SerialPort serialPort;
 	// A porta que será utilizada
-	private static final String PORT_NAMES[] = {"COM3"};
+	private static final String PORT_NAMES[] = {"COM7"};
 	private BufferedReader input;
 	// A saida enviada para porta
 	private OutputStream output;
@@ -86,11 +87,23 @@ public class SerialTest implements SerialPortEventListener
 		// Ignore all the other eventTypes, but you should consider the other ones.
 	}
 	
+	 /*public void writetoport(String send) {
+
+		    try {
+		            output.write(send.getBytes());
+		            output.flush();
+		        } catch (IOException e) {
+		            // TODO Auto-generated catch block
+		            e.printStackTrace();
+		        }
+		}*/
+
+	
 	// Para finalizar o uso da porta
 	public static void main(String[] args) throws Exception {
 		SerialTest main = new SerialTest();
 		main.initialize();
-		Thread t=new Thread() {
+		Thread t = new Thread() {
 			public void run() {
 				//the following line will keep this app alive for 1000 seconds,
 				//waiting for events to occur and responding to them (printing incoming messages to console).
@@ -99,6 +112,14 @@ public class SerialTest implements SerialPortEventListener
 		};
 		t.start();
 		System.out.println("Started");
+        //main.writetoport("hello");
+		String data = "y"; 
+		main.output = main.serialPort.getOutputStream();
+		main.output.write( data.getBytes() );
+		main.output.flush();
+		main.close();
+
 	}
+	
 
 }
