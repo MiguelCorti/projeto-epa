@@ -1,4 +1,4 @@
-Ferramentas:
+﻿Ferramentas:
 
 	- Arduino
 	- Sensor de temperatura [1]
@@ -32,4 +32,4 @@ O que teremos que aprender:
 [1] (http://www.ajudino.com/2013/06/11-lendo-temperatura-com-lm35.html)
 [2] (http://tushev.org/articles/arduino/item/47-interfacing-hh10d-with-arduino)
 [3] (http://www.ajudino.com/2013/05/6-utilizando-sensor-de-luminosidade-ldr.html)
-[4] (http://playground.arduino.cc/Interfacing/Java#.UyBo_fldW6M) - (http://www.drdobbs.com/jvm/control-an-arduino-from-java/240163864)
+[4] (http://playground.arduino.cc/Interfacing/Java#.UyBo_fldW6M) - (http://www.drdobbs.com/jvm/control-an-arduino-from-java/240163864) - (http://mfizz.com/oss/rxtx-for-java)
