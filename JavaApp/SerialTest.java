@@ -87,39 +87,13 @@ public class SerialTest implements SerialPortEventListener
 		// Ignore all the other eventTypes, but you should consider the other ones.
 	}
 	
-	 /*public void writetoport(String send) {
-
-		    try {
-		            output.write(send.getBytes());
-		            output.flush();
-		        } catch (IOException e) {
-		            // TODO Auto-generated catch block
-		            e.printStackTrace();
-		        }
-		}*/
-
-	
-	// Para finalizar o uso da porta
-	public static void main(String[] args) throws Exception {
-		SerialTest main = new SerialTest();
-		main.initialize();
-		Thread t = new Thread() {
-			public void run() {
-				//the following line will keep this app alive for 1000 seconds,
-				//waiting for events to occur and responding to them (printing incoming messages to console).
-				try {Thread.sleep(1000000);} catch (InterruptedException ie) {}
-			}
-		};
-		t.start();
-		System.out.println("Started");
-        //main.writetoport("hello");
-		String data = "y"; 
-		main.output = main.serialPort.getOutputStream();
-		main.output.write( data.getBytes() );
-		main.output.flush();
-		main.close();
-
+	public void writeport(String send)
+	{
+		try {
+			output.write(send.getBytes());
+			output.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
-	
-
 }
